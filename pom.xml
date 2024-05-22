@@ -11,15 +11,16 @@
   <name>my-jfrog-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  <modules>
+    <module>child</module>
+  </modules>
   <profiles>
     <profile>
       <id>skip</id>
     </profile>
     <profile>
       <id>dep</id>
-      <modules>
-        <module>child</module>
-      </modules>
+
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
