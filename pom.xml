@@ -17,16 +17,16 @@
     </profile>
     <profile>
       <id>dep</id>
-
+      <modules>
+        <module>child</module>
+      </modules>
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
     </profile>
   </profiles>
 
-  <modules>
-    <module>child</module>
-  </modules>
+
 
 
 
