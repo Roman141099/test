@@ -50,7 +50,7 @@
   <scm>
     <developerConnection>scm:git:ssh://git@github.com/Roman141099/test.git</developerConnection>
     <connection>scm:git:ssh://git@github.com/Roman141099/test.git</connection>
-    <tag>my-jfrog-app-3.5</tag>
+    <tag>my-jfrog-app-3.6</tag>
     <url>https://github.com/Roman141099/test</url>
   </scm>
 
