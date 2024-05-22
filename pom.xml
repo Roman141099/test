@@ -69,7 +69,7 @@
         <version>2.5.3</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <releaseProfiles>skip,dep</releaseProfiles>
+          <releaseProfiles>skip</releaseProfiles>
         </configuration>
       </plugin>
     </plugins>
