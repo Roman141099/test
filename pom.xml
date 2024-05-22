@@ -5,7 +5,7 @@
 
   <groupId>com.jfrog</groupId>
   <artifactId>my-jfrog-app</artifactId>
-  <version>3.9</version>
+  <version>4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>my-jfrog-app</name>
@@ -17,14 +17,16 @@
     </profile>
     <profile>
       <id>dep</id>
-      <modules>
-        <module>child</module>
-      </modules>
+
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
     </profile>
   </profiles>
+
+  <modules>
+    <module>child</module>
+  </modules>
 
 
   <properties>
@@ -49,7 +51,7 @@
   <scm>
     <developerConnection>scm:git:ssh://git@github.com/Roman141099/test.git</developerConnection>
     <connection>scm:git:ssh://git@github.com/Roman141099/test.git</connection>
-    <tag>my-jfrog-app-3.9</tag>
+    <tag>my-jfrog-app-4</tag>
     <url>https://github.com/Roman141099/test</url>
   </scm>
 
