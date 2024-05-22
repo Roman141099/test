@@ -12,9 +12,21 @@
   <name>my-jfrog-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-  <modules>
-    <module>child</module>
-  </modules>
+  <profiles>
+    <profile>
+      <id>skip</id>
+    </profile>
+    <profile>
+      <id>dep</id>
+      <modules>
+        <module>child</module>
+      </modules>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+  </profiles>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,7 +40,19 @@
       <name>a0hwtvrd4wg9q-artifactory-primary-0-snapshots</name>
       <url>https://romajan.jfrog.io/artifactory/romajanski-libs-snapshot</url>
     </snapshotRepository>
+    <repository>
+      <id>snapshots</id>
+      <name>a0hwtvrd4wg9q-artifactory-primary-0-snapshots</name>
+      <url>https://romajan.jfrog.io/artifactory/romajanski-libs-snapshot</url>
+    </repository>
   </distributionManagement>
+
+  <scm>
+    <developerConnection>scm:git:ssh://git@github.com:Roman141099/test.git</developerConnection>
+    <connection>scm:git:ssh://git@github.com:Roman141099/test.git</connection>
+    <tag>test1</tag>
+    <url>https://github.com/Roman141099/test</url>
+  </scm>
 
   <dependencies>
     <dependency>
@@ -40,6 +64,17 @@
   </dependencies>
 
   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <releaseProfiles>skip</releaseProfiles>
+        </configuration>
+      </plugin>
+    </plugins>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->

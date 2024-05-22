@@ -15,6 +15,11 @@
             <name>a0hwtvrd4wg9q-artifactory-primary-0-snapshots</name>
             <url>https://romajan.jfrog.io/artifactory/romajanski-libs-snapshot</url>
         </snapshotRepository>
+        <repository>
+            <id>snapshots</id>
+            <name>a0hwtvrd4wg9q-artifactory-primary-0-snapshots</name>
+            <url>https://romajan.jfrog.io/artifactory/romajanski-libs-snapshot</url>
+        </repository>
     </distributionManagement>
 
 
