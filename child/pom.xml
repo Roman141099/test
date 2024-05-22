@@ -23,7 +23,7 @@
 
     <groupId>com.jfrog</groupId>
     <artifactId>child</artifactId>
-    <version>3.9-SNAPSHOT</version>
+    <version>3.9</version>
 
     <build>
         <plugins>
