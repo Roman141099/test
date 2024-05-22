@@ -5,7 +5,7 @@
 
   <groupId>com.jfrog</groupId>
   <artifactId>my-jfrog-app</artifactId>
-  <version>9-SNAPSHOT</version>
+  <version>9</version>
   <packaging>pom</packaging>
 
   <name>my-jfrog-app</name>
