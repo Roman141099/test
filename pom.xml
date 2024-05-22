@@ -5,7 +5,7 @@
 
   <groupId>com.jfrog</groupId>
   <artifactId>my-jfrog-app</artifactId>
-  <version>4</version>
+  <version>5-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>my-jfrog-app</name>
@@ -51,7 +51,7 @@
   <scm>
     <developerConnection>scm:git:ssh://git@github.com/Roman141099/test.git</developerConnection>
     <connection>scm:git:ssh://git@github.com/Roman141099/test.git</connection>
-    <tag>my-jfrog-app-4</tag>
+    <tag>my-jfrog-app-5</tag>
     <url>https://github.com/Roman141099/test</url>
   </scm>
 
