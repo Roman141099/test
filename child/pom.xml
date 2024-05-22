@@ -23,7 +23,7 @@
 
     <groupId>com.jfrog</groupId>
     <artifactId>child</artifactId>
-    <version>3.4</version>
+    <version>3.5-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
