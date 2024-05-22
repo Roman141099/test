@@ -23,21 +23,7 @@
 
     <groupId>com.jfrog</groupId>
     <artifactId>child</artifactId>
-    <version>8</version>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <releaseProfiles>skip</releaseProfiles>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <version>9-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
