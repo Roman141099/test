@@ -48,7 +48,7 @@
   <scm>
     <developerConnection>scm:git:ssh://git@github.com/Roman141099/test.git</developerConnection>
     <connection>scm:git:ssh://git@github.com/Roman141099/test.git</connection>
-    <tag>my-jfrog-app-15</tag>
+    <tag>my-jfrog-app-16</tag>
     <url>https://github.com/Roman141099/test</url>
   </scm>
 
@@ -69,7 +69,7 @@
         <version>2.5.3</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <releaseProfiles>skip,dep</releaseProfiles>
+          <releaseProfiles>skip</releaseProfiles>
         </configuration>
       </plugin>
     </plugins>
